@@ -9,13 +9,9 @@
 #FFF8DC - cornsilk
 #8A2BE2 - blueviolet
 #DDA0DD - plum
-
-
-
 */
 
-/* Global styles
--------------------------------*/
+/* Global styles ---------------*/
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
@@ -28,7 +24,7 @@ body {
     margin: 0;
 }
 h1, h2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'poppins', cursive;
     font-weight: 400;
 }
 h1 {
@@ -41,10 +37,17 @@ h2 {
 h3 {
     margin: 0;
 }
+
+h5 {
+    margin: 0;
+    display: left;
+    text-align: left;
+}
 a {
     color: #9932CC;
 }
 a:hover {
+    background: #DDA0DD;
     text-decoration: none;
 }
 .content-wrap {
@@ -74,12 +77,12 @@ a:hover {
     display: inline-block;
 }
 
-/* Header and Footer
--------------------------------*/
+/* Header and Footer -----------*/
 header, footer {
     background: #DDA0DD;
     color: #9370DB;
 }
+
 /* header */
 header {
     padding-top: 50px;
@@ -90,13 +93,14 @@ header h1, header h2 {
     margin: 0;
 }
 .profile-img {
-    border-radius: 50%;
+    border-radius: 20%;
 }
 .download {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 /* footer */
 footer {
     text-align: center;
@@ -105,8 +109,8 @@ footer {
     padding: 40px;
     display: inline-block;
 }
-/* Navigation
--------------------------------*/
+
+/* Navigation ------*/
 nav {
     text-align: center;
     background: #FFF8DC;
@@ -122,8 +126,7 @@ nav a {
     font-weight: 700;
 }
 
-/* Work Experience
--------------------------------*/
+/* Work Experience ------------*/
 .work {
     background: #8A2BE2;
     color: white;
@@ -132,14 +135,13 @@ h3 ~ p {
     margin: 0;
 }
 .job-description {
-    margin-bottom: 25px;
+     margin-bottom: 25px; 
 }
 .job-description p:first-of-type {
     margin-top: 0;
 }
 
-/* Education
--------------------------------*/
+/* Education ---------------*/
 .education {
     background: #9932CC;
     color: white;
