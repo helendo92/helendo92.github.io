@@ -47,7 +47,6 @@ a:hover {
 .col-narrow {
     width: 30%;
     float: left;
-    min-height: 175px;
 }
 .col-wide {
     width: 70%;
@@ -89,8 +88,21 @@ footer {
 h3 ~ p {
     margin: 0;
 }
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
 /* Education
 -------------------------------*/
 .education {
     background: #8D99AE;
 }
+p + h3 {
+    margin-top: 30px;
+}
+
+
+
