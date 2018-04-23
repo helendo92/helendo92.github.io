@@ -3,6 +3,15 @@
 #8D99AE - light blue
 #EDF2F4 - blue/white
 #EF233C - red
+#9932CC - dark orchid
+#7B68EE - medium lateblue
+#9370DB - medium purple
+#FFF8DC - cornsilk
+#8A2BE2 - blueviolet
+#DDA0DD - plum
+
+
+
 */
 
 /* Global styles
@@ -33,7 +42,7 @@ h3 {
     margin: 0;
 }
 a {
-    color: #EF233C;
+    color: #9932CC;
 }
 a:hover {
     text-decoration: none;
@@ -59,7 +68,7 @@ a:hover {
 }    
 .btn {
     text-decoration: none;
-    background: #EF233C;
+    background: #9932CC;
     color: white;
     padding: 10px;
     display: inline-block;
@@ -68,8 +77,8 @@ a:hover {
 /* Header and Footer
 -------------------------------*/
 header, footer {
-    background: #282D42;
-    color: #8D99AE;
+    background: #DDA0DD;
+    color: #9370DB;
 }
 /* header */
 header {
@@ -77,7 +86,7 @@ header {
     position: relative;
 }
 header h1, header h2 {
-    color: #EDF2F4;
+    color: #9370DB;
     margin: 0;
 }
 .profile-img {
@@ -100,7 +109,7 @@ footer {
 -------------------------------*/
 nav {
     text-align: center;
-    background: white;
+    background: #FFF8DC;
     position: fixed;
     top: 0;
     width: 100%;
@@ -116,7 +125,8 @@ nav a {
 /* Work Experience
 -------------------------------*/
 .work {
-    background: #EDF2F4;
+    background: #8A2BE2;
+    color: white;
 }
 h3 ~ p {
     margin: 0;
@@ -131,7 +141,8 @@ h3 ~ p {
 /* Education
 -------------------------------*/
 .education {
-    background: #8D99AE;
+    background: #9932CC;
+    color: white;
 }
 p + h3 {
     margin-top: 30px;
