@@ -74,6 +74,7 @@ header, footer {
 /* header */
 header {
     padding-top: 50px;
+    position: relative;
 }
 header h1, header h2 {
     color: #EDF2F4;
@@ -81,6 +82,11 @@ header h1, header h2 {
 }
 .profile-img {
     border-radius: 50%;
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /* footer */
 footer {
