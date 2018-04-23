@@ -41,7 +41,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: hidden;
 }
 .col-narrow {
@@ -65,12 +65,15 @@ header, footer {
     color: #8D99AE;
 }
 /* header */
-.profile-img {
-    border-radius: 50%;
+header {
+    padding-top: 50px;
 }
 header h1, header h2 {
     color: #EDF2F4;
     margin: 0;
+}
+.profile-img {
+    border-radius: 50%;
 }
 /* footer */
 footer {
@@ -80,6 +83,23 @@ footer {
     padding: 40px;
     display: inline-block;
 }
+/* Navigation
+-------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /* Work Experience
 -------------------------------*/
 .work {
