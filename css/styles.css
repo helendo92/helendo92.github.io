@@ -105,6 +105,20 @@ footer {
     padding: 40px;
     display: inline-block;
 }
+@keyframes fa-blink {
+    0% { opacity: 1; }
+    25% { opacity: 0.25; }
+    50% { opacity: 0.5; }
+    75% { opacity: 0.75; }
+    100% { opacity: 0; }
+}
+.contact-info {
+  -webkit-animation: fa-blink .75s linear infinite;
+  -moz-animation: fa-blink .75s linear infinite;
+  -ms-animation: fa-blink .75s linear infinite;
+  -o-animation: fa-blink .75s linear infinite;
+  animation: fa-blink .75s linear infinite;
+}
 
 /* Navigation ------*/
 nav {
@@ -140,7 +154,7 @@ h3 ~ p {
 /* Education ---------------*/
 .education {
     /* background: linear-gradient(rgba(150, 50, 204, 0.8),rgba(150, 50, 204,0.5)),
-                url(../images/christina-truong.png) no-repeat fixed;
+                url(../images/helen-do.png) no-repeat fixed;
     background-size: cover; */
     background: #9932cc;
     color: white;
@@ -169,4 +183,3 @@ p + h3 {
         width: 200px;
     }
 }
-
