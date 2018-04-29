@@ -1,0 +1,171 @@
+/* Color Palette
+#282D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+#9932CC - dark orchid 93, 164, 193
+#7B68EE - medium lateblue
+#9370DB - medium purple
+#FFF8DC - cornsilk
+#8A2BE2 - blueviolet
+#DDA0DD - plum
+*/
+
+/* Global styles ---------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'poppins', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h3 {
+    margin: 0;
+}
+h4 {
+    margin-top: 0;
+    display: center;
+    text-align: center;
+}
+h5 {
+    margin: 0;
+    display: left;
+    text-align: left;
+}
+a {
+    color: #9932CC;
+}
+a:hover {
+    background: #DDA0DD;
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+}
+.uppercase {
+    text-transform: uppercase;
+}    
+/* Download button */
+.btn {
+    text-decoration: none;
+    background: #9932CC;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Header and Footer -----------*/
+header, footer {
+    background: #DDA0DD;
+    color: #9370DB;
+}
+
+/* header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+header h1, header h2 {
+    color: #9370DB;
+    margin: 0;
+}
+.profile-img {
+    border-radius: 50%;
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    padding: 40px;
+    display: inline-block;
+}
+
+/* Navigation ------*/
+nav {
+    text-align: center;
+    background: #FFF8DC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Work Experience ------------*/
+.work {
+    background: white;
+    color: #8A2BE2;
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+     margin-bottom: 25px; 
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Education ---------------*/
+.education {
+    /* background: linear-gradient(rgba(150, 50, 204, 0.8),rgba(150, 50, 204,0.5)),
+                url(../images/christina-truong.png) no-repeat fixed;
+    background-size: cover; */
+    background: #9932cc;
+    color: white;
+}
+p + h3 {
+    margin-top: 30px;
+}
+
+/* Media Queries ---------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
+
