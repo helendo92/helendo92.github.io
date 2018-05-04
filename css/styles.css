@@ -39,7 +39,6 @@ h3 {
 }
 h4 {
     margin: 0;
-    display: center;
     text-align: center;
 }
 h5 {
@@ -83,11 +82,11 @@ header, footer {
 header {
     padding-top: 50px;
     position: relative;
-    text-align: center;
 }
 header h1, header h2 {
     color: #9370DB;
     margin: 0;
+    text-align: center;
 }
 .download {
     position: absolute;

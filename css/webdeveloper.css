@@ -5,10 +5,14 @@
 #EF233C - red
 #9932CC - dark orchid 93, 164, 193
 #7B68EE - medium lateblue
-#9370DB - medium purple
 #FFF8DC - cornsilk
-#8A2BE2 - blueviolet
-#DDA0DD - plum
+#D3D3D3 - lightgray
+#696969 - dimgrey
+#A9A9A9 - darkgray
+#DCDCDC - gainsboro
+#008080 - teal
+
+
 */
 
 /* Global styles ---------------*/
@@ -48,10 +52,10 @@ h5 {
     text-align: left;
 }
 a {
-    color: #9932CC;
+    color: #696969;
 }
 a:hover {
-    background: #DDA0DD;
+    background: #D3D3D3;
     text-decoration: none;
 }
 .content-wrap {
@@ -67,7 +71,7 @@ a:hover {
 /* Download button */
 .btn {
     text-decoration: none;
-    background: #9932CC;
+    background: #696969;
     color: white;
     padding: 10px;
     display: inline-block;
@@ -75,8 +79,8 @@ a:hover {
 
 /* Header and Footer -----------*/
 header, footer {
-    background: #DDA0DD;
-    color: #9370DB;
+    background: #D3D3D3;
+    color: #A9A9A9;
 }
 
 /* header */
@@ -85,7 +89,7 @@ header {
     position: relative;
 }
 header h1, header h2 {
-    color: #9370DB;
+    color: #A9A9A9;
     margin: 0;
 }
 .profile-img {
@@ -123,7 +127,7 @@ footer {
 /* Navigation ------*/
 nav {
     text-align: center;
-    background: #FFF8DC;
+    background: #A9A9A9;
     position: fixed;
     top: 0;
     width: 100%;
@@ -138,8 +142,8 @@ nav a {
 
 /* Work Experience ------------*/
 .work {
-    background: #8A2BE2;
-    color: white;
+    background: #DCDCDC;
+    color: #008080;
 }
 h3 ~ p {
     margin: 0;
@@ -156,7 +160,7 @@ h3 ~ p {
     /* background: linear-gradient(rgba(150, 50, 204, 0.8),rgba(150, 50, 204,0.5)),
                 url(../images/helen-do.png) no-repeat fixed;
     background-size: cover; */
-    background: #9932cc;
+    background: #696969;
     color: white;
 }
 p + h3 {
