@@ -9,6 +9,7 @@
 #FFF8DC - cornsilk
 #8A2BE2 - blueviolet
 #DDA0DD - plum
+#DDBADC - thistle
 */
 
 /* Global styles ---------------*/
@@ -74,7 +75,7 @@ a:hover {
 
 /* Header and Footer -----------*/
 header, footer {
-    background: #DDA0DD;
+    background: #DDBADC;
     color: #9370DB;
 }
 
