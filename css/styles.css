@@ -166,10 +166,10 @@ p + h3 {
         width: 30%;
         float: left;
     }
-    .col-wide {
+    /* .col-wide {
         width: 70%;
         float: left;
-        padding-left: 20px;
+        padding-left: 20px; */
     }
 }
 @media (max-width: 899px) {
